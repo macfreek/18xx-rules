@@ -1,176 +1,169 @@
-<!-- Heron css -->
-A:HOVER {
+a:hover {
   color: red;
-  }
-BODY {
+}
+body {
   font-family: verdana, tahoma, arial, sans-serif;
   font-size: 80%;
-  }
-BODY.bg {
-  background:#FFFFCC;
-  }
-H1 {
+}
+header {
+  position: relative;
+}
+#sitehome {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#hextile {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+header h1, header h2 {
+  margin: 2px 0px 2px 140px; /* top right bottom left */
+  font-weight: normal;
+}
+header h1 a, header h2 a {
+  text-decoration: none;
+}
+header h2 {
+  font-size: 170%;
+}
+header nav {
+  margin: 10px 0px;
+}
+h1 {
   color:#800000;
   margin-bottom: 0;
-  font-family: verdana, tahoma, arial, sans-serif;
   font-size: 180%;
   font-weight: normal;
-  }
-H2 {
+}
+h2 {
   color:#800000;
-  font-family: verdana, tahoma, arial, sans-serif;
   font-size: 120%;
   font-weight: bold;
   }
-H3 {
+h3 {
   color:#800000;
-  font-family: verdana, tahoma, arial, sans-serif;
   font-size: 100%;
   font-weight: bold;
-  }
-HR {
+  margin: 10px 0px 5px;
+}
+hr.short {
+  background-color: #f00;
+  height: 5px;
+  width: 600px;
+  height: 3px;
+  border: 0;
+}
+hr.long {
   border: 1px solid #CC9966;
-  }
-INPUT.num {
-  font-family: verdana, tahoma, arial, sans-serif;
-  font-size: 100%;
-  text-align: center;
-  }
-P {
-  font-family: verdana, tahoma, arial, sans-serif;
-  }
-P.heading {
-  color:#800000;
-  font-weight: bold
-  }
-TABLE {
-  font-family: verdana, tahoma, arial, sans-serif;
-  font-size: 100%;
-  }
-TR.menu-head {
-  background:#000080;
-  color: white;
-  font-family: verdana, tahoma, arial, sans-serif;
-  font-size: 8pt;
-  font-style: normal;
-  font-weight: bold
-  }
-TR.menu-body {
-  background:#CCCCFF;
-  font-size: 8pt;
-  font-family: verdana, tahoma, arial, sans-serif;
-  font-style: normal;
-  font-weight: normal
-  }
-TR.menu-body-yellow {
-  background:#FFFFCC;
-  font-size: 8pt;
-  font-family: verdana, tahoma, arial, sans-serif;
-  font-style: normal;
-  font-weight: normal
-  }
-TABLE.menu-rounds {
-  font-size: 7pt
-  }
-TR.blank {
-  font-family: Verdana, Tahoma, Arial, sans-serif;
-  }
-TR.connection-run {
-  background:#FFCC99;
-  font-family: Verdana, Tahoma, Arial, sans-serif;
-  text-align: center;
-  vertical-align: top
-  }
-TR.even-center {
-  background:#FFFFCC;
-  font-family: Verdana, Tahoma, Arial, sans-serif;
-  text-align: center;
-  vertical-align: top
-  }
-TR.even-left {
-  background:#FFFFCC;
-  font-family: Verdana, Tahoma, Arial, sans-serif;
-  vertical-align: top
-  }
-TR.even-gp {
-  background:#FFCC99;
-  font-family: Verdana, Tahoma, Arial, sans-serif;
-  vertical-align: center
-  }
-TR.head-center {
-  background:#CC3300;
-  color: yellow;
-  font-family: Verdana, Tahoma, Arial, sans-serif;
-  font-weight: bold;
-  text-align: center
-  }
-TR.head-left {
-  background:#CC3300;
-  color: yellow;
-  font-family: Verdana, Tahoma, Arial, sans-serif;
-  font-weight: bold
-  }
-TR.odd-center {
-  background:#CCFFCC;
-  font-family: Verdana, Tahoma, Arial, sans-serif;
-  text-align: center;
-  vertical-align: top
-  }
-TR.odd-left {
-  background:#CCFFCC;
-  font-family: Verdana, Tahoma, Arial, sans-serif;
-  vertical-align: top
-  }
-TR.odd-gp {
-  background:#CCFFCC;
-  font-family: Verdana, Tahoma, Arial, sans-serif;
-  vertical-align: center
-  }
-TD.align-center {
-  text-align: center;
-  }
-TD.align-left {
+}
+table {
+  border-collapse: collapse;
+}
+td, th, tr {
+  margin: 0;
+  padding: 0 2px;
+  border-collapse: collapse;
+  vertical-align: top;
   text-align: left;
-  }
-TD.align-right {
-  text-align: right;
-  }
-TD.blank {
-  background:#CCCCFF;
-  font-family: Verdana, Tahoma, Arial, sans-serif;
-  text-align: center
-  }
-TD.company-not-available {
-  background:#FFCC99;
-  font-family: Verdana, Tahoma, Arial, sans-serif;
+}
+thead th {
+  background-color: #CCFFCC;
+  font-weight: bold;
+  /*text-align: center;*/
+}
+tbody th {
+  font-weight: bold;
+  white-space: nowrap;
+}
+td p {
+  margin: 0;
+}
+.train {
   text-align: center;
-  vertical-align: top
-  }
-TD.head-center {
-  background:#CC3300;
-  color: yellow;
-  font-weight: bold;
-  text-align: center
-  }
-TD.head-right {
-  background:#CC3300;
-  color: yellow;
-  font-weight: bold;
-  text-align: right
-  }
-TD.notes {
-  color: red;
-  font-weight: bold;
-  text-align: center
-  }
-TD.optional-train {
-  background: yellow;
-  font-family: Verdana, Tahoma, Arial, sans-serif;
-  text-align: center
-  }
-TD.reserved {
-  background:#FF80FF;
-  font-family: Verdana, Tahoma, Arial, sans-serif;
+  font-style: italic;
+}
+td.phase, th.phase {
   text-align: center;
-  vertical-align: top
-  }
+  font-weight: bold;
+}
+.lookuptable td, .lookuptable tbody th {
+  border: 1px solid #CCFFCC;
+}
+#gamelist tbody th {
+  white-space: normal;
+}
+#startcash {
+  padding: 2;
+}
+.notsupported {
+  text-align: center;
+}
+.notrecommended {
+  background-color: #FED6B2; /* orange */
+  text-align: center;
+}
+.recommended {
+  background-color: #F9FFC0; /* yellow */
+  text-align: center;
+}
+.best {
+  background-color: #CCFFCC; /* green */
+  text-align: center;
+}
+.available_train_details th {
+  font-weight: normal;
+  background-color: #CCFFCC; /* green */
+}
+.squashed {}
+dl.definitions {
+  display: grid;
+  grid-template-columns: 150px auto;
+}
+.definitions dt {
+  width: 150px;
+  font-weight: bold;
+  grid-column-start: 1;
+}
+.definitions dd {
+  grid-column-start: 2;
+  margin-left: 5px;
+}
+.nowrap {
+  white-space: nowrap;
+}
+.games {
+  display: inline;
+  font-weight: bold;
+}
+.rule {
+  display: inline;
+  margin-left: 10px;
+}
+.games span.visible ~ span.visible:before {
+  /* prepend a ", " before if a span is preceded by another span */
+  content: ", ";
+}
+.legendkey {
+  color:#800000;
+}
+footer p {
+  text-align: center;
+}
+footer nav {
+  position: relative;
+}
+footer nav #contact {
+  position: absolute;
+  left: 0;
+  margin: 10px;
+}
+footer nav #copyright {
+  position: absolute;
+  right: 0;
+  margin: 10px;
+}
+.invisible {
+  display: none;
+}
