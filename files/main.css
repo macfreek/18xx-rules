@@ -1,0 +1,176 @@
+<!-- Heron css -->
+A:HOVER {
+  color: red;
+  }
+BODY {
+  font-family: verdana, tahoma, arial, sans-serif;
+  font-size: 80%;
+  }
+BODY.bg {
+  background:#FFFFCC;
+  }
+H1 {
+  color:#800000;
+  margin-bottom: 0;
+  font-family: verdana, tahoma, arial, sans-serif;
+  font-size: 180%;
+  font-weight: normal;
+  }
+H2 {
+  color:#800000;
+  font-family: verdana, tahoma, arial, sans-serif;
+  font-size: 120%;
+  font-weight: bold;
+  }
+H3 {
+  color:#800000;
+  font-family: verdana, tahoma, arial, sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  }
+HR {
+  border: 1px solid #CC9966;
+  }
+INPUT.num {
+  font-family: verdana, tahoma, arial, sans-serif;
+  font-size: 100%;
+  text-align: center;
+  }
+P {
+  font-family: verdana, tahoma, arial, sans-serif;
+  }
+P.heading {
+  color:#800000;
+  font-weight: bold
+  }
+TABLE {
+  font-family: verdana, tahoma, arial, sans-serif;
+  font-size: 100%;
+  }
+TR.menu-head {
+  background:#000080;
+  color: white;
+  font-family: verdana, tahoma, arial, sans-serif;
+  font-size: 8pt;
+  font-style: normal;
+  font-weight: bold
+  }
+TR.menu-body {
+  background:#CCCCFF;
+  font-size: 8pt;
+  font-family: verdana, tahoma, arial, sans-serif;
+  font-style: normal;
+  font-weight: normal
+  }
+TR.menu-body-yellow {
+  background:#FFFFCC;
+  font-size: 8pt;
+  font-family: verdana, tahoma, arial, sans-serif;
+  font-style: normal;
+  font-weight: normal
+  }
+TABLE.menu-rounds {
+  font-size: 7pt
+  }
+TR.blank {
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  }
+TR.connection-run {
+  background:#FFCC99;
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  text-align: center;
+  vertical-align: top
+  }
+TR.even-center {
+  background:#FFFFCC;
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  text-align: center;
+  vertical-align: top
+  }
+TR.even-left {
+  background:#FFFFCC;
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  vertical-align: top
+  }
+TR.even-gp {
+  background:#FFCC99;
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  vertical-align: center
+  }
+TR.head-center {
+  background:#CC3300;
+  color: yellow;
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  font-weight: bold;
+  text-align: center
+  }
+TR.head-left {
+  background:#CC3300;
+  color: yellow;
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  font-weight: bold
+  }
+TR.odd-center {
+  background:#CCFFCC;
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  text-align: center;
+  vertical-align: top
+  }
+TR.odd-left {
+  background:#CCFFCC;
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  vertical-align: top
+  }
+TR.odd-gp {
+  background:#CCFFCC;
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  vertical-align: center
+  }
+TD.align-center {
+  text-align: center;
+  }
+TD.align-left {
+  text-align: left;
+  }
+TD.align-right {
+  text-align: right;
+  }
+TD.blank {
+  background:#CCCCFF;
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  text-align: center
+  }
+TD.company-not-available {
+  background:#FFCC99;
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  text-align: center;
+  vertical-align: top
+  }
+TD.head-center {
+  background:#CC3300;
+  color: yellow;
+  font-weight: bold;
+  text-align: center
+  }
+TD.head-right {
+  background:#CC3300;
+  color: yellow;
+  font-weight: bold;
+  text-align: right
+  }
+TD.notes {
+  color: red;
+  font-weight: bold;
+  text-align: center
+  }
+TD.optional-train {
+  background: yellow;
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  text-align: center
+  }
+TD.reserved {
+  background:#FF80FF;
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  text-align: center;
+  vertical-align: top
+  }
