@@ -5,6 +5,11 @@ body {
   font-family: verdana, tahoma, arial, sans-serif;
   font-size: 80%;
 }
+@media screen {
+  body {
+    background-color: #FFFFCC;
+  }
+}
 header {
   position: relative;
 }
@@ -166,4 +171,13 @@ footer nav #copyright {
 }
 .invisible {
   display: none;
+}
+@media print {
+  nav,
+  #contents,
+  #games,
+  #footer,
+  #history {
+    display: none;
+  }
 }
